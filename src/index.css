@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+/* Botões */
+.button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.button-yes {
+  background-color: #16a34a;
+  color: white;
+}
+
+.button-yes:hover {
+  background-color: #15803d;
+  transform: scale(1.1);
+}
+
+.button-no {
+  background-color: #dc2626;
+  color: white;
+}
+
+.button-no:hover {
+  background-color: #b91c1c;
+  transform: scale(1.1) rotate(-2deg);
+}
+
+/* Efeito de Flork balançando */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+
+.font-dancing {
+  font-family: 'Dancing Script', cursive;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
