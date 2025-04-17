@@ -53,7 +53,7 @@ export default function PedidoNamoro() {
             transition={{ duration: 1.5, repeat: Infinity }}
             className="text-5xl font-bold text-white mb-4 bg-white bg-opacity-20 p-5 rounded-lg text-center font-dancing"
           >
-            Quer namorar comigo, Teteia? 🥰
+            Quer  comigo, Teteia? 🥰
           </motion.h1>
 
           <div className="flex gap-4 items-center">
