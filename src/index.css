@@ -27,6 +27,7 @@
 
 .button-no {
   background-color: #dc2626;
+  cursor: default;
   color: white;
 }
 
